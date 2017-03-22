@@ -1,5 +1,6 @@
 # Introduction
-This is a modified Redis 3.0.4 version that will be used as the basis for Dynomite data reconciliation feature. There are several added components in Redis.
+This is a modified Redis 3.0.4 version that adds the timestamps (wall clock) to every key/value pair and provides some additional APIs to benefit from the timestamps. There are several added components in Redis.
+
 For simplicity we call it Redis 3.0.5.
 
 ## Status
@@ -21,4 +22,4 @@ Experimental
 * BWREWRITEAOF re-writes the AOF with the timestamps from each value.
 
 # Contact 
-This is repository is maintained by Ioannis Papapanagiotou
+This repository is maintained by Ioannis Papapanagiotou
